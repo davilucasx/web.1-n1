@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif, 'poppins';
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #3aa1dd;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+.logo{
+    margin: 5px;
+}
+
+.navbar{
+    margin: 5px;
+}
+.navbar ul{
+    display: flex;
+    cursor: pointer;
+}
+
+.navbar ul li a{
+    color: #000405;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.navbar ul li a:hover{
+    background-color: #fcfdff;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    width: 650px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 5px 5px  #1a6ca3;
+}
+.img img{
+    width: 400px;
+}
+
+.cadastro h2{
+    color: #03000f;
+    margin: 5px;
+    font-size: 30px;   
+}
+h2::after {
+    content: '';
+    display: block;
+    width: 4rem;
+    height: 0.3rem;
+    background-color: #1a6ca3;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 18px;
+    margin: 4px;
+    color: #000405;
+}
+
+.input{
+    border: 2px solid #1a6ca3;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.input::placeholder{
+    color: #03000f;
+    font-size: 14px;
+}
+
+.cadastrar{
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #1a6ca3;
+    color: #fcfdff;
+    font-size: 18px;
+    cursor: pointer;
+}

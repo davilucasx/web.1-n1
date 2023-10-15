@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif, 'poppins';
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #3aa1dd;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+.logo{
+    margin: 5px;
+}
+
+.navbar{
+    margin: 5px;
+}
+.navbar ul{
+    display: flex;
+    cursor: pointer;
+}
+
+.navbar ul li a{
+    color: #000405;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.navbar ul li a:hover{
+    background-color: #fcfdff;
+}
+
+.card{
+    margin: 10px;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttons a{
+    display: flex;
+    justify-content: center;
+    border: 2px solid #040013;
+    border-radius: 20px;
+    color: #110011;
+    padding: 10px;
+    width: 180px;
+    font-size: 18px;
+    background-color: #903f8d;
+    cursor: pointer;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+.playlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #903f8d;
+    background-color: #fcfdff;
+}
+
+.playlist img{
+    width: 150px;
+    height: 150px;
+}
+
+.cardPlayer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerPlayer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #903f8d;
+    box-shadow: 5px 5px  #000000;
+}
+
+#imgPlayer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #0cb699;
+    background-color: #fff;
+}
+
+#imgPlayer img{
+    width: 150px;
+    height: 150px;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+

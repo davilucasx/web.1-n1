@@ -1,0 +1,24 @@
+<%- include('./partials/header2')%>
+<div class="card">
+    <div class="container">
+        <div class="img">
+            <img src="./images/Music-bro (1).png" alt="">
+        </div>
+        <div class="cadastro">
+            <h2>Cadastre-se</h2>
+            <form class="form">
+                <label  for="">Nome</label>
+                    <input class="input" type="text" placeholder="Nome" required>
+                
+                <label  for="">Email</label>
+                    <input class="input" type="email" placeholder="Email" required>
+                
+                <label for="">Senha</label>
+                    <input class="input" type="password" placeholder="Senha" required>   
+            
+                <button onclick="login()" class="cadastrar">Cadastrar</button>        
+            </form>
+        </div>
+    </div>
+</div>
+<%- include('./partials/footer')%>
