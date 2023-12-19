@@ -10,6 +10,8 @@ var albumRouter = require('./routes/album');
 var cadastroRouter = require('./routes/cadastro');
 var loginRouter = require('./routes/login');
 var playerRouter = require('./routes/player');
+var createRouter = require('./routes/create');
+var autenticarRouter = require('./routes/autenticar');
 
 var app = express();
 
@@ -32,6 +34,8 @@ app.use('/album', albumRouter);
 app.use('/cadastro', cadastroRouter);
 app.use('/login', loginRouter);
 app.use('/player', playerRouter);
+app.use('/create', createRouter);
+app.use('/autenticar', autenticarRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

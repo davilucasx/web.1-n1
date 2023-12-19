@@ -6,17 +6,17 @@
         </div>
         <div class="cadastro">
             <h2>Cadastre-se</h2>
-            <form class="form">
+            <form class="form" action="/create" method="post">
                 <label  for="">Nome</label>
-                    <input class="input" type="text" placeholder="Nome" required>
+                    <input class="input" type="text" name="nome" placeholder="Nome" required>
                 
                 <label  for="">Email</label>
-                    <input class="input" type="email" placeholder="Email" required>
+                    <input class="input" type="email" name="email" placeholder="Email" required>
                 
                 <label for="">Senha</label>
-                    <input class="input" type="password" placeholder="Senha" required>   
+                    <input class="input" type="password" name="senha" placeholder="Senha" required>   
             
-                <button onclick="login()" class="cadastrar">Cadastrar</button>        
+                <button type="submit" onclick="login()" class="cadastrar">Cadastrar</button>        
             </form>
         </div>
     </div>
